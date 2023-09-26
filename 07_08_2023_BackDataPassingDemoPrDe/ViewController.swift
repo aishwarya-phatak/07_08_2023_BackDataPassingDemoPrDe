@@ -10,6 +10,8 @@ import UIKit
 //Step 4
 class ViewController: UIViewController, BackwardDataPassing{
     @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var lastnameLabel: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
     private let secondViewControllerIdentifier = "SecondViewController"
     
     override func viewDidLoad() {
@@ -24,8 +26,23 @@ class ViewController: UIViewController, BackwardDataPassing{
         self.navigationController?.pushViewController(secondViewController, animated: true)
     }
     
-    //Step 5
-    func passDataBack(username: String) {
-        self.userNameLabel.text = username
+    //approach 2
+    
+    func passDataBack(student: Student) {
+        self.userNameLabel.text = student.username
+        self.lastnameLabel.text = student.lastname
+        self.cityLabel.text = student.city
     }
+    
+    //approach 1
+//    func passDataBack(username: String, lastname: String, city: String) {
+//        self.userNameLabel.text = username
+//        self.lastnameLabel.text = lastname
+//        self.cityLabel.text = city
+//    }
+    
+//    //Step 5
+//    func passDataBack(username: String) {
+//        self.userNameLabel.text = username
+//    }
 }

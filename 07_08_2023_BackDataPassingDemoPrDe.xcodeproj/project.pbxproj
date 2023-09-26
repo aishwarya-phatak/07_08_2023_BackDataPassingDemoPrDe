@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685E939C2AC29416008DCD01 /* BackwardDataPassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E939B2AC29416008DCD01 /* BackwardDataPassing.swift */; };
+		685E939E2AC29DD8008DCD01 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E939D2AC29DD8008DCD01 /* Student.swift */; };
 		687BEA362AC14AA9009ABD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687BEA352AC14AA9009ABD04 /* AppDelegate.swift */; };
 		687BEA382AC14AA9009ABD04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687BEA372AC14AA9009ABD04 /* SceneDelegate.swift */; };
 		687BEA3A2AC14AA9009ABD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687BEA392AC14AA9009ABD04 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		685E939B2AC29416008DCD01 /* BackwardDataPassing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardDataPassing.swift; sourceTree = "<group>"; };
+		685E939D2AC29DD8008DCD01 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		687BEA322AC14AA9009ABD04 /* 07_08_2023_BackDataPassingDemoPrDe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_08_2023_BackDataPassingDemoPrDe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		687BEA352AC14AA9009ABD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		687BEA372AC14AA9009ABD04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				687BEA402AC14AAA009ABD04 /* LaunchScreen.storyboard */,
 				687BEA432AC14AAA009ABD04 /* Info.plist */,
 				687BEA492AC14AD1009ABD04 /* SecondViewController.swift */,
+				685E939B2AC29416008DCD01 /* BackwardDataPassing.swift */,
+				685E939D2AC29DD8008DCD01 /* Student.swift */,
 			);
 			path = 07_08_2023_BackDataPassingDemoPrDe;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				687BEA4A2AC14AD1009ABD04 /* SecondViewController.swift in Sources */,
+				685E939E2AC29DD8008DCD01 /* Student.swift in Sources */,
+				685E939C2AC29416008DCD01 /* BackwardDataPassing.swift in Sources */,
 				687BEA3A2AC14AA9009ABD04 /* ViewController.swift in Sources */,
 				687BEA362AC14AA9009ABD04 /* AppDelegate.swift in Sources */,
 				687BEA382AC14AA9009ABD04 /* SceneDelegate.swift in Sources */,
